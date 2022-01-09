@@ -1,0 +1,21 @@
+{
+  "name": "jspdftutorials",
+  "version": "1.0.0",
+  "description": "tutorials to create pdf downloads from web pages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "nagappan",
+  "license": "ISC",
+  "dependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "html2canvas": "^1.4.0",
+    "jspdf": "^2.5.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  }
+}

@@ -1,0 +1,25 @@
+<html>
+
+<head>
+    <title>Export html content to pdf</title>
+    <script src="https://unpkg.com/jspdf@latest/dist/jspdf.umd.min.js"></script>
+    <script src="src/script.js"></script>
+</head>
+
+<body>
+    <div id="content">
+        <h2>H2 Header</h2>
+        <p>It is a paragraph text</p>
+        <ul style="padding-left: 10px;"><span>Sample numbering list</span>
+            <li>First item</li>
+            <li>Second item</li>
+            <li>Third item</li>
+        </ul>
+    </div>
+    <div>
+        <canvas id="myCanvas" width="400" height="400" style="border:1px solid grey"></canvas>
+    </div>
+    <button id="downloadpdf">Download</button>
+</body>
+
+</html>
